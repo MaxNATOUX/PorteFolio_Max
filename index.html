@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Portfolio de Max Angelot NATOUX, développeur web passionné.">
+    <meta name="author" content="Max Angelot NATOUX">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portefolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+       
+    <h1 id="typing-text"></h1>
+
+    <p>L'objectif de mon portfolio c'est de presenter 
+        concretement mes compétences et mes projets réalisés. 
+        Il est conçu pour être simple et facile à naviguer, 
+        permettant aux visiteurs de découvrir rapidement 
+        qui je suis et ce que je fais.
+    </p>
+    
+    <nav>
+        
+        <ul>
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#apropos">A propos</a></li>
+            <li><a href="#competence">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#hobbies">Hobbies</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <section id="accueil">
+
+        <div class="image-box">
+        <img src="image/Max.png" alt="Max Angelot NATOUX" class="profile-image">
+        <div class="white-corner"></div>
+        </div>
+
+        <h2>Bienvenue sur mon portfolio</h2>
+        <p>Je suis Max Angelot NATOUX, 
+            étudiant en science informatique passionné 
+            par le développement web et les technologies 
+        </p>
+        <div class="cv-wrapper"></divclass>
+            <a href="CV Max Angelot NATOUX.pdf" download class="btn-cv">📄 Télécharger mon CV</a>
+        </div>
+
+    </section>
+
+
+    <section id="apropos" class="section-hidden">
+        <h2>A propos de moi</h2>
+        <p>Je suis actuellement étudiant en informatique, 
+            avec une passion pour le développement web et
+             les nouvelles technologies.
+        </p>
+    </section>
+    
+    <section id="competence" class="section-hidden">
+  <h2>Compétences</h2>
+
+  <div class="skills">
+    <div class="skill" data-percentage="70" data-label="HTML" data-color="#00ff5e"></div>
+    <div class="skill" data-percentage="80" data-label="CSS" data-color="#00e1ff"></div>
+    <div class="skill" data-percentage="65" data-label="JAVASCRIPT" data-color="red"></div>
+    <div class="skill" data-percentage="65" data-label="PHP" data-color="#ffe600"></div>
+    <div class="skill" data-percentage="70" data-label="C++" data-color="orange"></div>
+    <div class="skill" data-percentage="70" data-label="Photoshop" data-color="#ff00a1"></div>
+  </div>
+</section>
+
+
+
+    <section id="projets" class="section-hidden">
+        <h2>Projets</h2>
+        <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
+        <ul>
+            <li>Site web pour la gestion d'un polyclinique</li>
+            <li>Site web pour exploiter les lieux touristiques</li>
+            <li>Portfolio interactif</li>
+        </ul>
+    </section>
+
+    <section id="hobbies" class="section-hidden">
+        <h2>Hobbies</h2>
+        <p>En dehors de mes études, j'aime :</p>
+        <ul>
+            <li>Lire des livres </li>
+            <li>Ecouter de la musique </li>
+            <li>Faire du sport</li>
+            <li>Explorer de nouvelles technologies</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section-hidden">
+        <h2>Contact</h2>
+        <p>Si vous souhaitez me contacter, 
+            vous pouvez utiliser le formulaire ci-dessous :
+        </p>
+        <form id="formulaire-contact">
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom" placeholder="EX: Max Angelot NATOUX" required>
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="EX: angelotnatoux@gmail.com" required>
+
+    <label for="objet">Objet</label>
+    <input type="text" id="objet" name="objet" placeholder="EX: Maintenence site Web" required>
+
+    <label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="EX: Je vous prie de bien vouloir remanier mon site internet..." required></textarea>
+
+    <button type="submit">Envoyer</button>
+    <p id="confirmation"></p>
+</form>
+
+    </section>
+    <button id="scrollToTopBtn" type="button">⬆️ Haut</button>
+
+    <script src="script.js" defer></script>
+    
+</body>
+<footer>
+    <p class="footer-copyright">© 2025 Max Angelot NATOUX | Tous droits réservés.</p>
+    <p>Info-line: +509 37 62 2064/ 42 86 3039</p>
+    <div class="reseaux-sociaux">
+        <a href="https://github.com/tonpseudo" target="_blank" rel="noopener" aria-label="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/max-angelot-natoux-1928a2338/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+            <a href="https://www.facebook.com/maxangelot.natoux.7" target="_blank" rel="noopener" aria-label="Facebook">
+                <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/maxangelot/" target="_blank" rel="noopener" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+            </a>
+        <a href="mailto:natouxangelot@tekedht.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+</footer>
+
