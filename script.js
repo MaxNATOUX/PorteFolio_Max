@@ -77,7 +77,7 @@ document.querySelectorAll('#competence .skill').forEach(skill => {
   skill.classList.add('not-visible'); // Pour effet de fade-in
 });
 
-// BONUS CSS injecté pour fade-in (si pas déjà dans le CSS)
+// CSS injecté pour fade-in
 const styleFade = document.createElement('style');
 styleFade.innerHTML = `
   #competence .not-visible {
@@ -176,3 +176,12 @@ function type() {
   }
 }
 type();
+// pour la taille sur android 
+js
+document.querySelectorAll('.menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    document.querySelector('.menu').classList.remove('active');
+  });
+});
+
+
