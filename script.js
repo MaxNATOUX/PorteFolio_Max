@@ -176,8 +176,7 @@ function type() {
   }
 }
 type();
-// pour la taille sur android 
-js
+// For mobile menu (if implemented)
 document.querySelectorAll('.menu a').forEach(link => {
   link.addEventListener('click', () => {
     document.querySelector('.menu').classList.remove('active');
