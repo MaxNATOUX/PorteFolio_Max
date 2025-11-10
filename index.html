@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr-FR">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="Portfolio de Max Angelot NATOUX, développeur web passionné.">
+    <meta name="description" content="Découvrez le portfolio de Max Angelot NATOUX, développeur web passionné. Projets, compétences et contact.">
     <meta name="author" content="Max Angelot NATOUX">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefolio</title>
+    <title>Max Angelot NATOUX - Développeur Web</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap">
-    <link rel="icon" type="image/png" href="favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 <body>
        
     <h1 id="typing-text"></h1>
 
-    <p>L'objectif de mon portfolio c'est de presenter 
-        concretement mes compétences et mes projets réalisés. 
-        Il est conçu pour être simple et facile à naviguer, 
-        permettant aux visiteurs de découvrir rapidement 
-        qui je suis et ce que je fais.
+    <p>Bienvenue sur mon portfolio numérique ! 
+        Ici, vous découvrirez mes compétences techniques, mes projets réalisés 
+        et ma passion pour le développement web. 
+        Ce portfolio a été conçu pour vous offrir une expérience 
+        interactive et fluide tout en mettant en valeur mon travail.
     </p>
     
     <nav>
@@ -39,7 +38,7 @@
     <section id="accueil">
 
         <div class="image-box">
-        <img src="./Max.jpg"alt="Photo profil de Max Angelot NATOUX" class="profile-image">
+        <img src="./Max.jpg" alt="Photo profil de Max Angelot NATOUX" class="profile-image">
         <div class="white-corner"></div>
         </div>
 
@@ -48,7 +47,7 @@
             étudiant en science informatique passionné 
             par le développement web et les technologies 
         </p>
-        <div class="cv-wrapper"></divclass>
+        <div class="cv-wrapper">
             <a href="CV Max Angelot NATOUX.pdf" download class="btn-cv">📄 Télécharger mon CV</a>
         </div>
 
@@ -60,6 +59,12 @@
         <p>Je suis actuellement étudiant en informatique, 
             avec une passion pour le développement web et
              les nouvelles technologies.
+        </p>
+        <p>Passionné par la création de solutions numériques innovantes, je cherche constamment 
+           à améliorer mes compétences et à relever de nouveaux défis dans le domaine du développement.
+        </p>
+        <p>Je suis motivé, curieux et toujours prêt à apprendre de nouvelles technologies 
+           pour créer des applications web modernes et efficaces.
         </p>
     </section>
     
@@ -81,21 +86,31 @@
     <section id="projets" class="section-hidden">
         <h2>Projets</h2>
         <p>Voici quelques projets sur lesquels j'ai travaillé :</p>
-        <ul>
-            <li>Site web pour la gestion d'un polyclinique</li>
-            <li>Site web pour exploiter les lieux touristiques</li>
-            <li>Portfolio interactif</li>
-        </ul>
+        <div class="project">
+            <h3>Site web pour la gestion d'un polyclinique</h3>
+            <p>Application web complète pour la gestion des patients, des rendez-vous 
+               et des dossiers médicaux d'une polyclinique. Développé avec HTML, CSS, JavaScript et PHP.</p>
+        </div>
+        <div class="project">
+            <h3>Site web pour exploiter les lieux touristiques</h3>
+            <p>Plateforme interactive présentant les attractions touristiques avec 
+               cartographie, photos et informations détaillées. Créé avec HTML, CSS et JavaScript.</p>
+        </div>
+        <div class="project">
+            <h3>Portfolio interactif</h3>
+            <p>Mon propre portfolio numérique mettant en valeur mes compétences, 
+               mes projets et mon parcours. Réalisé avec HTML, CSS et JavaScript.</p>
+        </div>
     </section>
 
     <section id="hobbies" class="section-hidden">
         <h2>Hobbies</h2>
         <p>En dehors de mes études, j'aime :</p>
         <ul>
-            <li>Lire des livres </li>
-            <li>Ecouter de la musique </li>
-            <li>Faire du sport</li>
-            <li>Explorer de nouvelles technologies</li>
+            <li>Lire des livres sur le développement personnel et les technologies</li>
+            <li>Ecouter de la musique variée pour m'inspirer</li>
+            <li>Faire du sport pour maintenir un bon équilibre</li>
+            <li>Explorer de nouvelles technologies et tendances du web</li>
         </ul>
     </section>
 
@@ -112,7 +127,7 @@
     <input type="email" id="email" name="email" placeholder="EX: angelotnatoux@gmail.com" required>
 
     <label for="objet">Objet</label>
-    <input type="text" id="objet" name="objet" placeholder="EX: Maintenence site Web" required>
+    <input type="text" id="objet" name="objet" placeholder="EX: Maintenance site Web" required>
 
     <label for="message">Message</label>
     <textarea id="message" name="message" placeholder="EX: Je vous prie de bien vouloir remanier mon site internet..." required></textarea>
@@ -149,4 +164,3 @@
     </div>
 
 </footer>
-
