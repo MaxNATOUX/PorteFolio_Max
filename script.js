@@ -22,8 +22,8 @@ document.querySelectorAll('#competence .skill').forEach(skill => {
 
   skill.innerHTML = `
     <svg>
-      <circle class="bg" cx="60" cy="60" r="50"></circle>
-      <circle class="progress" cx="60" cy="60" r="50"></circle>
+      <circle class="bg" cx="50" cy="50" r="45"></circle>
+      <circle class="progress" cx="50" cy="50" r="45"></circle>
     </svg>
     <div class="text">
       <div class="value">${percentage}%</div>
@@ -32,7 +32,7 @@ document.querySelectorAll('#competence .skill').forEach(skill => {
   `;
 
   const progressCircle = skill.querySelector('.progress');
-  const radius = 50;
+  const radius = 45;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (percentage / 100) * circumference;
 
@@ -50,8 +50,8 @@ function generateSkillCircle(skill) {
 
   skill.innerHTML = `
     <svg>
-      <circle class="bg" cx="60" cy="60" r="50"></circle>
-      <circle class="progress" cx="60" cy="60" r="50"></circle>
+      <circle class="bg" cx="50" cy="50" r="45"></circle>
+      <circle class="progress" cx="50" cy="50" r="45"></circle>
     </svg>
     <div class="text">
       <div class="value">${percentage}%</div>
@@ -64,7 +64,7 @@ function generateSkillCircle(skill) {
 function animateSkillCircle(skill) {
   const percentage = skill.getAttribute('data-percentage');
   const progressCircle = skill.querySelector('.progress');
-  const radius = 50;
+  const radius = 45;
   const circumference = 2 * Math.PI * radius;
   const offset = circumference - (percentage / 100) * circumference;
 
